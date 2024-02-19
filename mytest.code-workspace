@@ -1,0 +1,82 @@
+{
+	"folders": [
+		{
+			"path": "../../../Library/WebServer/Documents/mytest"
+		},
+		{
+			"path": "../cfwt_pmtool"
+		},
+		{
+			"path": "../Documents/hello-world"
+		},
+		{
+			"path": "../Downloads/SceneGraphDeveloperExtensions-master"
+		},
+		{
+			"path": "../Documents/workspace/CurrentFoundation"
+		},
+		{
+			"path": "../betatracking"
+		},
+		{
+			"path": "../tracks"
+		},
+		{
+			"path": "../cfwt_tracking"
+		},
+		{
+			"path": "../testCFProj"
+		},
+		{
+			"path": "../fureverFriends"
+		},
+		{
+			"path": "../anotherTest"
+		},
+		{
+			"path": "../foundationProj"
+		},
+		{
+			"path": "../../../Library/Server/Web/Data/Sites/Default/survey"
+		},
+		{
+			"path": "../cfwt_tracking_rn5"
+		},
+		{
+			"path": "../../../Library/WebServer/Documents/trivia"
+		},
+		{
+			"path": "../pics"
+		},
+		{
+			"path": "../login_stateful"
+		},
+		{
+			"path": "../login_bloc"
+		},
+		{
+			"path": "../animation"
+		},
+		{
+			"path": "../news"
+		},
+		{
+			"path": "../to_do_list"
+		},
+		{
+			"path": "../Documents/cfcoldbrew"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../cf_stripe"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"cfml.definition.userFunctions.search.enable": true,
+		"workbench.iconTheme": "vs-cfml",
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
