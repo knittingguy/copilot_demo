@@ -7,48 +7,62 @@
   // RUN THE QUERY
   local.qry = queryExecute(local.sql, {}, {datasource: "copilot_demo"});
 
-  // DISPLAY THE RESULTS
-  writedump(local.qry);
 </cfscript>
 
 <html>
     <head>
-        <title>Create Customer</title>
-        <style>
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            label {
-                display: inline-block;
-                width: 100px;
-            }
-            input {
-                margin-bottom: 10px;
-            }
-        </style>
+        <title>Customer Management</title>
     </head>
     <body>
-        <h1>Create Customer</h1>
-        <form method="post" action="create_customer.cfm" target="new_popup" onSubmit="window.open('about:blank','new_popup','width=500,height=400')">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name" required><br>
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required><br>
-            <label for="address1">Address 1:</label>
-            <input type="text" id="address1" name="address1" required><br>
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city" required><br>
-            <label for="state">State:</label>
-            <input type="text" id="state" name="state" required><br>
-            <label for="zip">Zip:</label>
-            <input type="text" id="zip" name="zip" required><br>
-            <label for="country">Country:</label>
-            <input type="text" id="country" name="country" required><br>
-            <input type="submit" value="Create">
-        </form>
+ 
+
+        <div class="container">
+            <h1>Customer Management</h1>
+
+            <!-- CREATE FORM -->
+            <form id="customer_form" method="post" action="customer_form.cfm" >
+                <div class="form_group">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                    
+                </div>
+                <div class="form_group">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name">
+                    
+                </div>
+                <div class="form_group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    
+                </div>
+                <div class="form_group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                 
+                </div>
+                <div class="form_group">
+                    <label for="address1">Address 1:</label>
+                    <input type="text" id="address1" name="address1">
+                </div>
+                <div class="form_group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div class="form_group">
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state">
+                </div>
+                <div class="form_group">
+                    <label for="zip">Zip:</label>
+                    <input type="text" id="zip" name="zip">
+                </div>
+                <div class="form_group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country">
+                </div>
+                <input type="submit" name="submit" value="Create Customer">
+            </form>
+        </div>
     </body>
 </html>
